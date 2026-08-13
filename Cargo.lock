@@ -1527,8 +1527,7 @@ dependencies = [
 [[package]]
 name = "fs-set-times"
 version = "0.20.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "94e7099f6313ecacbe1256e8ff9d617b75d1bcb16a6fddef94866d225a01a14a"
+source = "git+https://github.com/willnode/fs-set-times.git?branch=redox#d7f183935fa1f14c3465ce8e8bd5411ae78b0757"
 dependencies = [
  "io-lifetimes 2.0.3",
  "rustix 1.1.4",

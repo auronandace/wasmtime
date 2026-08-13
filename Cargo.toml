@@ -790,3 +790,7 @@ fpr = "fpr"
 
 [workspace.metadata.typos.files]
 extend-exclude = [ "docs/js/mermaid*.js", "crates/wasi-nn/**/*.txt", "*.isle" ]
+
+[patch.crates-io]
+fs-set-times = { git = 'https://github.com/willnode/fs-set-times.git', branch = 'redox' }
+# rustix 1.0.7 willnode patched fork no longer applies, should use 1.1.4
