@@ -792,6 +792,5 @@ fpr = "fpr"
 extend-exclude = [ "docs/js/mermaid*.js", "crates/wasi-nn/**/*.txt", "*.isle" ]
 
 [patch.crates-io]
-fs-set-times = { git = 'https://github.com/willnode/fs-set-times.git', branch = 'redox' }
 libc = { git = 'https://github.com/auronandace/libc.git', branch = 'redox-at' }
 rustix = { git = 'https://github.com/auronandace/rustix.git', branch = 'redox-at' }
