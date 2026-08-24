@@ -413,7 +413,7 @@ capstone = { version = "0.14.0", default-features = false, features = ['full', '
 xed-sys = { version = "0.6" }
 smallvec = { version = "1.15.1", features = ["union"] }
 tracing = { version = "0.1.41", default-features = false }
-bitflags = "2.9.4"
+bitflags = "2.13.1"
 thiserror = "2.0.17"
 async-trait = "0.1.89"
 heck = "0.5"
@@ -433,7 +433,7 @@ libfuzzer-sys = "0.4.10"
 walkdir = "2.5.0"
 tempfile = "3.27.0"
 filecheck = "0.5.0"
-libc = { version = "0.2.185", default-features = true }
+libc = { version = "0.2.189", default-features = true }
 file-per-thread-logger = "0.2.0"
 tokio = { version = "1.51.1", features = [ "rt", "time" ] }
 hyper = "1.9.0"
