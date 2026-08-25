@@ -792,5 +792,4 @@ fpr = "fpr"
 extend-exclude = [ "docs/js/mermaid*.js", "crates/wasi-nn/**/*.txt", "*.isle" ]
 
 [patch.crates-io]
-libc = { git = 'https://github.com/auronandace/libc.git', branch = 'redox-at' }
 rustix = { git = 'https://github.com/auronandace/rustix.git', branch = 'redox-at' }
