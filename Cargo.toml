@@ -793,4 +793,4 @@ extend-exclude = [ "docs/js/mermaid*.js", "crates/wasi-nn/**/*.txt", "*.isle" ]
 
 [patch.crates-io]
 rustix = { git = 'https://github.com/auronandace/rustix.git', branch = 'redox-at' }
-#cap-primitives = {git = 'https://github.com/auronandace/cap-std.git', branch = 'redox'}
+cap-primitives = {git = 'https://github.com/auronandace/cap-std.git', branch = 'redox'}
